@@ -1,0 +1,42 @@
+.modal-header {
+    background-color: #007bff;
+    color: white;
+}
+
+.modal-body {
+    background-image: linear-gradient(to bottom, #2a5298, #1e3c72);
+    color: white;
+}
+
+.form-control,
+.form-select {
+    background-color: #f8f9fa;
+}
+
+.btn-add-room {
+    background-color: #dc3545;
+    color: white;
+}
+
+.btn-add-room:hover {
+    background-color: #c82333;
+}
+
+
+/* Check in */
+.modal-content {
+    background: linear-gradient(to right, #4facfe, #00f2fe);
+    color: #fff;
+    border-radius: 10px;
+}
+.form-label {
+    font-weight: bold;
+}
+.btn-primary {
+    background-color: #ff4d4d;
+    border: none;
+}
+.btn-danger {
+    background-color: #ff4d4d;
+    border: none;
+}
