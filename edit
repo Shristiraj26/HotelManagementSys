@@ -1,0 +1,100 @@
+<br>
+    <!-- ___________Hotel Slide_____________ -->
+      <h5 class="section-title mt-5 text-center">HOTELS IN BUDGET</h5>
+
+                  <div class="row">
+                      <!-- First Hotel Card -->
+                      <div class="col-md-4">
+                          <div class="hotel-card">
+                                  <img src="/HotelImages/image4.avif" class="card-img-top" alt="Hotel1">
+                              <div class="hotel-info">
+                                  <br>
+                                  <p class="hotel-name">FabHotel DT - LB Nagar</p>
+                                  <p class="rating">9.4 Superb</p>
+                                  <p>Sited 11 km from Mecca Masjid and 12 km from Chowmohalla Palace.</p>
+                                  <p class="price">From ₹ 4,620 per night</p>
+                                  <a href="#" class="btn btn-primary">Book Now</a>
+
+                              </div>
+                          </div>
+                      </div>
+  
+                      <!-- Second Hotel Card -->
+                      <div class="col-md-4">
+                          <div class="hotel-card">
+                                  <img src="/HotelImages/i.avif",class="card-img-top" alt="Hotel2">
+                              <div class="hotel-info">
+                                <br>
+                                  <p class="hotel-name">FabHotel SRS Grand - Gandi Maisamma Near Mahindra University</p>
+                                  <p class="rating">9.2 Superb</p>
+                                  <p>Located within 13 km of City Centre Mall and 16 km from Snow World.</p>
+                                  <p class="price">From ₹ 4,876.20 per night</p>
+                                  <a href="#" class="btn btn-primary">Book Now</a>
+                              </div>
+                          </div>
+                      </div>
+  
+                      <!-- Third Hotel Card -->
+                      <div class="col-lg-4 col-md-6 d-flex">
+                          <div class="hotel-card">
+                                  <img src="/HotelImages/image5.avif" class="card-img-top" alt="Hotel3">
+                              <div class="hotel-info">
+                                <p class="hotel-name">FabHotel Q Suites</p>
+                                <p class="rating">9.0 Superb</p>
+                                <p>Sited 9 km from ISB and 10 km from City Centre Mall.</p>
+                                <p class="price">From ₹ 3,208.80 per night</p>
+                                <a href="#" class="btn btn-primary">Book Now</a>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+  
+     
+  <!--_________________________________________________  -->
+
+.hotel-card {
+    /* border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    background-color: white;
+    height: 100%;
+    display: flex;
+    flex-direction: column; */
+
+    margin-bottom: 20px;
+    height: 100%;
+    transition: transform 0.3s ease;
+}
+
+.hotel-card:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+
+}
+
+.hotel-info {
+    /* padding: 15px;
+    flex-grow: 1; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.hotel-card .btn:hover {
+    background-color: rgb(151, 151, 219);
+}
+
+.hotel-name {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.rating {
+    color: #f39c12;
+}
+
+.price {
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-top: auto;
+}
